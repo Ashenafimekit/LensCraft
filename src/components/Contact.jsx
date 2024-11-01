@@ -58,13 +58,13 @@ const Contact = () => {
             <h1>follow us</h1>
             <div className=" space-x-5">
               <a href="">
-                <FacebookIcon />
+                <FacebookIcon className="hover:text-[#d69e6d]"/>
               </a>
               <a href="">
-                <InstagramIcon />
+                <InstagramIcon className="hover:text-[#d69e6d]"/>
               </a>
               <a href="">
-                <TelegramIcon />
+                <TelegramIcon className="hover:text-[#d69e6d]"/>
               </a>
             </div>
           </div>
@@ -73,7 +73,7 @@ const Contact = () => {
           <h1 className="text-lg text-center text-white text-bold">
             Contact Form
           </h1>
-          <form onSubmit={handleSubmit} className="flex flex-col gap-6 w-1/2">
+          <form onSubmit={handleSubmit} className="flex flex-col gap-6 w-full sm:w-1/2">
             <input
               type="text"
               name="name"

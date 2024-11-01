@@ -12,7 +12,8 @@ const { TabPane } = Tabs;
 const Tab = () => {
   return (
     <div className="tab-container">
-      <Tabs defaultActiveKey="1" centered >
+      <h1 className="text-4xl text-white text-bold text-center mb-5">Our Best Shouts</h1>
+      <Tabs defaultActiveKey="1" centered className="">
         <TabPane tab="ALL" key="1">
           <Gallery/>
         </TabPane>

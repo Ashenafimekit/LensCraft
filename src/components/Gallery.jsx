@@ -52,7 +52,7 @@ const Gallery = () => {
             <img
               src={image.src}
               alt={image.alt}
-              className="w-full h-48 sm:h-64 object-cover object-top rounded-lg transform transition duration-500 group-hover:scale-105"
+              className="w-full h-full sm:h-full mb-3 object-cover object-top rounded-lg transform transition duration-500 group-hover:scale-105"
               onClick={() => openModal(image)}
             />
             <button className="" onClick={() => handleClick(index)}>

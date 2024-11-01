@@ -27,6 +27,48 @@
     display:none; 
   }
   
+/* Base styling for the tab container */
+.tab-container {
+  padding: 20px;
+}
+
+/* Centering tabs and setting font size */
+.ant-tabs-tab {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+/* Adjusting for tablets */
+@media (max-width: 768px) {
+  .tab-container {
+    padding: 10px;
+  }
+
+  .ant-tabs-tab {
+    font-size: 14px;
+  }
+}
+
+/* Adjusting for mobile screens */
+@media (max-width: 480px) {
+  .tab-container {
+    padding: 5px;
+  }
+
+  .ant-tabs-tab {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  /* Making tabs scrollable on smaller screens */
+  .ant-tabs-nav-list {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
   
-  
-  
+  /* Reducing tab height on mobile */
+  .ant-tabs-tab-btn {
+    padding: 8px 10px;
+  }
+}
