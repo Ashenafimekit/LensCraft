@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TelegramIcon from "@mui/icons-material/Telegram";
+import axios from "axios";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -24,9 +25,15 @@ const Contact = () => {
       message: "",
     });
   };
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     console.log("Submitted Form Data : ", formData);
+    clearFormData()
+    try {
+      await axios.post("http://localhost:3000", formData);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
@@ -58,13 +65,13 @@ const Contact = () => {
             <h1>follow us</h1>
             <div className=" space-x-5">
               <a href="">
-                <FacebookIcon className="hover:text-[#d69e6d]"/>
+                <FacebookIcon className="hover:text-[#d69e6d]" />
               </a>
               <a href="">
-                <InstagramIcon className="hover:text-[#d69e6d]"/>
+                <InstagramIcon className="hover:text-[#d69e6d]" />
               </a>
               <a href="">
-                <TelegramIcon className="hover:text-[#d69e6d]"/>
+                <TelegramIcon className="hover:text-[#d69e6d]" />
               </a>
             </div>
           </div>
@@ -73,7 +80,10 @@ const Contact = () => {
           <h1 className="text-lg text-center text-white text-bold">
             Contact Form
           </h1>
-          <form onSubmit={handleSubmit} className="flex flex-col gap-6 w-full sm:w-1/2">
+          <form
+            onSubmit={handleSubmit}
+            className="flex flex-col gap-6 w-full sm:w-1/2"
+          >
             <input
               type="text"
               name="name"
@@ -99,7 +109,6 @@ const Contact = () => {
             ></textarea>
             <button
               type="submit"
-              onClick={clearFormData}
               className="bg-[#d69e6d] rounded-lg text-white hover:bg-transparent border border-customBorder p-2"
             >
               Submit

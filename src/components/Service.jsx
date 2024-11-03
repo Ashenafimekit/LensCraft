@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Service = () => {
   return (
@@ -22,9 +23,11 @@ const Service = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
             inventore?
           </p>
-          <button className="bg-customBorder border-2 border-customBorder px-5 py-1 text-white hover:bg-transparent">
-            view
-          </button>
+          <Link to="/service">
+            <button className="bg-customBorder border-2 border-customBorder px-5 py-1 text-white hover:bg-transparent">
+              view
+            </button>
+          </Link>
         </div>
         <div className="flex flex-col gap-3 items-center justify-center border-2 border-customBorder p-3">
           <div className="flex flex-row gap-1">
@@ -39,9 +42,11 @@ const Service = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
             inventore?
           </p>
-          <button className="bg-customBorder border-2 border-customBorder px-5 py-1 text-white hover:bg-transparent">
-            view
-          </button>
+          <Link to="/service">
+            <button className="bg-customBorder border-2 border-customBorder px-5 py-1 text-white hover:bg-transparent">
+              view
+            </button>
+          </Link>
         </div>
         <div className="flex flex-col gap-3 items-center justify-center border-2 border-customBorder p-3">
           <div className="flex flex-row gap-1">
@@ -56,9 +61,11 @@ const Service = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
             inventore?
           </p>
-          <button className="bg-customBorder border-2 border-customBorder px-5 py-1 text-white hover:bg-transparent">
-            view
-          </button>
+          <Link to="/service">
+            <button className="bg-customBorder border-2 border-customBorder px-5 py-1 text-white hover:bg-transparent">
+              view
+            </button>
+          </Link>
         </div>
         <div className="flex flex-col gap-3 items-center justify-center border-2 border-customBorder p-3">
           <div className="flex flex-row gap-1">
@@ -73,9 +80,12 @@ const Service = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
             inventore?
           </p>
-          <button className="bg-customBorder border-2 border-customBorder px-5 py-1 text-white hover:bg-transparent">
-            view
-          </button>
+
+          <Link to="/service">
+            <button className="bg-customBorder border-2 border-customBorder px-5 py-1 text-white hover:bg-transparent">
+              view
+            </button>
+          </Link>
         </div>
       </div>
     </div>

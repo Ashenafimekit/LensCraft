@@ -4,8 +4,17 @@ import { Link as ScrollLink } from "react-scroll";
 import studio from "../assets/studio.jpg";
 import camera from "../assets/camera.jpg";
 import c1 from "../assets/c1.avif";
+import { useLocation } from "react-router-dom";
 
 const Hero = () => {
+  const heroText = {
+    "/": " Welcome to LensCraft Studio",
+    "/gallery": "Our Gallery",
+    "/service": "Our Service ",
+  };
+
+  const currentHeroText =
+    heroText[location.pathname] || "Welcome to LensCraft Studio";
   return (
     <div>
       <Carousel arrows infinite={false} autoplay autoplaySpeed={3000}>
@@ -18,7 +27,7 @@ const Hero = () => {
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col gap-5 text-center px-4">
             <div className="flex flex-col gap-2">
               <h1 className="font-bold text-lg sm:text-2xl md:text-3xl lg:text-4xl text-black">
-                Welcome to LensCraft Studio
+                {currentHeroText}
               </h1>
               <p className="text-xs sm:text-base md:text-lg lg:text-xl text-black">
                 Capture the moment, cherish the memories
