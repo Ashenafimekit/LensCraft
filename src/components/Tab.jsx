@@ -5,29 +5,31 @@ import Wedding from "../components/Wedding";
 import Portrait from "../components/Portrait";
 import Couples from "../components/Couples";
 import Fashion from "../components/Fashion";
-import '../Custom/Custom.css'
+import "../Custom/Custom.css";
 
 const { TabPane } = Tabs;
 
 const Tab = () => {
   return (
     <div className="tab-container">
-      <h1 className="text-4xl text-white text-bold text-center mb-5">Our Best Shouts</h1>
+      <h1 className="text-4xl text-white text-bold text-center mb-5">
+        Our Best Shouts
+      </h1>
       <Tabs defaultActiveKey="1" centered className="">
         <TabPane tab="ALL" key="1">
-          <Gallery/>
+          <Gallery />
         </TabPane>
         <TabPane tab="WEDDING" key="2">
-          Content of WEDDING tab
+          <Wedding />
         </TabPane>
         <TabPane tab="CUPPLES" key="3">
-          Content of CUPPLES tab
+          <Couples />
         </TabPane>
         <TabPane tab="PORTRAITS" key="4">
-          Content of PORTRAITS tab
+          <Portrait />
         </TabPane>
         <TabPane tab="FASHION" key="5">
-         <Fashion/>
+          <Fashion />
         </TabPane>
       </Tabs>
     </div>
