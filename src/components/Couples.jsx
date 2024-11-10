@@ -1,20 +1,15 @@
 import React, { useState } from 'react'
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import cp1 from "../assets/every/pic18.jpg"
-import cp2 from "../assets/every/pic19.jpg"
-import cp3 from "../assets/every/pic20.jpg"
-import cp4 from "../assets/every/pic21.jpg"
-import cp5 from "../assets/every/pic22.jpg"
-import cp6 from "../assets/every/pic23.jpg"
+import cp1 from "../assets/mts/couples/couple1.webp"
+import cp2 from "../assets/mts/couples/couple2.webp"
+import cp3 from "../assets/mts/couples/couple3.webp"
 
 const Couples = () => {
   const [imageData, setImageData] = useState([
     {src : cp1, like: 0},
     {src : cp2, like: 0},
     {src : cp3, like: 0},
-    {src : cp4, like: 0},
-    {src : cp5, like: 0},
-    {src : cp6, like: 0},
+    
   ])
   const [isOpen, setIsOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(null);

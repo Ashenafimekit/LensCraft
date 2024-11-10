@@ -16,7 +16,7 @@ const Header = () => {
         <h1>
           <Link to="/">
             <h1 className="text-lg md:text-2xl lg:text-3xl font-bold hover:text-[#d69e6d]">
-              LensCraft
+              MTS 
             </h1>
           </Link>
         </h1>

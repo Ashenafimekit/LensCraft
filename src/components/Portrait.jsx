@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import pt1 from "../assets/every/pic24.jpg"
-import pt2 from "../assets/every/pic25.jpg"
-import pt3 from "../assets/every/pic26.jpg"
-import pt4 from "../assets/every/pic27.jpg"
+import pt1 from "../assets/mts/portrait/pt4.jpg"
+import pt2 from "../assets/mts/portrait/pt1.jpg"
+import pt3 from "../assets/mts/portrait/pt2.jpg"
+import pt4 from "../assets/mts/portrait/pt3.jpg"
+import pt5 from "../assets/mts/portrait/pt5.jpg"
+
 
 const Portrait = () => {
   const [imageData, setImageData] = useState([
@@ -11,6 +13,7 @@ const Portrait = () => {
     {src : pt2, like: 0},
     {src : pt3, like: 0},
     {src : pt4, like: 0},
+    {src : pt5, like: 0},
   ])
   const [isOpen, setIsOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(null);

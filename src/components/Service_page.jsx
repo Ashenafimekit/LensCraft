@@ -19,8 +19,8 @@ const Service_page = () => {
         <div className="w-full md:w-1/2 flex flex-col justify-center items-center p-5 md:p-10">
           <div className="flex flex-col gap-3 border border-customBorder p-3">
             <div className="flex flex-row gap-1 items-center">
-              <h1 className="text-xl font-bold text-center text-white bg-customBorder p-1">02</h1>
-              <h1 className="text-xl font-bold text-white">Portrait Photography</h1>
+              <h1 className="text-xl font-bold text-center text-white bg-customBorder p-1">01</h1>
+              <h1 className="text-xl font-bold text-white">Wedding Photography</h1>
             </div>
             <p className="text-sm text-white">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt consectetur id aut illo. Quae, facilis. Labore quam voluptatum fugit aliquid?

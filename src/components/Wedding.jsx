@@ -1,11 +1,16 @@
 import React, { useState } from 'react'
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import wedd1 from "../assets/every/pic34.jpg"
-import wedd2 from "../assets/every/pic35.jpg"
-import wedd3 from "../assets/every/pic36.jpg"
-import wedd4 from "../assets/every/pic37.jpg"
-import wedd5 from "../assets/every/pic38.jpg"
-import wedd6 from "../assets/every/pic39.jpg"
+import wedd1 from "../assets/mts/wedding/wedding1.jpg"
+import wedd2 from "../assets/mts/wedding/wedding2.jpg"
+import wedd3 from "../assets/mts/wedding/wedding3.jpg"
+import wedd4 from "../assets/mts/wedding/wedding4.jpg"
+import wedd5 from "../assets/mts/wedding/wedding5.jpg"
+import wedd6 from "../assets/mts/wedding/wedding6.jpg"
+import wedd7 from "../assets/mts/wedding/wedding7.jpg"
+import wedd8 from "../assets/mts/wedding/wedding8.jpg"
+import wedd9 from "../assets/mts/wedding/wedding9.jpg"
+import wedd10 from "../assets/mts/wedding/wedding10.jpg"
+import wedd11 from "../assets/mts/wedding/wedding11.jpg"
 
 
 const Wedding = () => {
@@ -16,6 +21,11 @@ const Wedding = () => {
     {src : wedd4, like: 0},
     {src : wedd5, like: 0},
     {src : wedd6, like: 0},
+    {src : wedd7, like: 0},
+    {src : wedd8, like: 0},
+    {src : wedd9, like: 0},
+    {src : wedd10, like: 0},
+    {src : wedd11, like: 0},
   ])
   const [isOpen, setIsOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(null);

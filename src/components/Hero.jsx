@@ -8,7 +8,7 @@ import { useLocation } from "react-router-dom";
 
 const Hero = () => {
   const heroText = {
-    "/": " Welcome to LensCraft Studio",
+    "/": " Welcome to MTS Multimedia",
     "/gallery": "Our Gallery",
     "/service": "Our Service ",
   };

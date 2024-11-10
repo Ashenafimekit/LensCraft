@@ -1,13 +1,14 @@
 import React from 'react'
 import { useState } from 'react';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import fs1 from "../assets/every/pic32.jpg"
-import fs2 from "../assets/every/pic33.jpg"
-import fs3 from "../assets/every/pic29.jpg"
-import fs4 from "../assets/every/pic30.jpg"
-import fs5 from "../assets/every/pic14.jpg"
-import fs6 from "../assets/every/pic15.jpg"
-import fs7 from "../assets/every/pic7.jpg"
+import fs1 from "../assets/mts/fashion/fashion1.jpg"
+import fs2 from "../assets/mts/fashion/fashion2.jpg"
+import fs3 from "../assets/mts/fashion/fashion3.jpg"
+import fs4 from "../assets/mts/fashion/fashion4.jpg"
+import fs5 from "../assets/mts/fashion/fashion5.jpg"
+import fs6 from "../assets/mts/fashion/fashion6.jpg"
+import fs7 from "../assets/mts/fashion/fashion7.jpg"
+
 
 
 const Fashion = () => {

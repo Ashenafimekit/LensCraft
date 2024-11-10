@@ -46,7 +46,7 @@ const Contact = () => {
       <div className="flex flex-col md:flex-row m-10 bg-white shadow-xl rounded-lg overflow-hidden w-4/5">
         <div className="w-full md:w-1/2 flex flex-col gap-6 p-8">
           <div>
-            <h1 className="font-bold text-3xl">LensCraft Digital Studio</h1>
+            <h1 className="font-bold text-3xl">MTS MULTIMEDIA</h1>
             <p className="text-base mt-4 leading-relaxed">
               Get in Touch We’d love to hear from you! Whether you’re looking to
               book a session, have questions, or need more information, our team

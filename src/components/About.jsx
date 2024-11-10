@@ -10,9 +10,9 @@ const About = () => {
       <div className="flex flex-col md:flex-row m-10 bg-white shadow-xl rounded-lg overflow-hidden w-4/5">
         <div className="w-full md:w-1/2 flex flex-col gap-6 p-8">
           <div>
-            <h1 className="font-bold text-3xl">LensCraft</h1>
+            <h1 className="font-bold text-3xl">MTS MULTIMEDIA</h1>
             <p className="text-base mt-4 leading-relaxed">
-              At LensCraft Digital Studio, we’re dedicated to creating a
+              At MTs Multimedia, we’re dedicated to creating a
               platform where memories are captured and cherished. Our goal is to
               connect clients with skilled photographers who bring stories to
               life through exceptional imagery, making the journey from concept

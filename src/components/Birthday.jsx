@@ -1,24 +1,18 @@
-import React, { useState } from "react";
-import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-import pic1 from "../assets/mts/all/pic1.jpg"
-import pic2 from "../assets/mts/all/pic2.jpg"
-import pic3 from "../assets/mts/all/pic3.jpg"
-import pic4 from "../assets/mts/all/pic4.jpg"
-import pic5 from "../assets/mts/all/pic5.jpg"
-import pic6 from "../assets/mts/all/pic6.jpg"
-import pic7 from "../assets/mts/all/pic7.webp"
-import pic8 from "../assets/mts/all/pic8.jpg"
+import React, { useState } from 'react'
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import bd1 from "../assets/mts/birthday/birthday1.jpg"
+import bd2 from "../assets/mts/birthday/birthday2.jpg"
+import bd3 from "../assets/mts/birthday/birthday3.jpg"
+import bd4 from "../assets/mts/birthday/birthday4.webp"
 
-const Gallery = () => {
+
+
+const Wedding = () => {
   const [imageData, setImageData] = useState([
-    {src : pic1, like: 0},
-    {src : pic2, like: 0},
-    {src : pic3, like: 0},
-    {src : pic4, like: 0},
-    {src : pic5, like: 0},
-    {src : pic6, like: 0},
-    {src : pic7, like: 0},
-    {src : pic8, like: 0},
+    {src : bd1, like: 0},
+    {src : bd2, like: 0},
+    {src : bd3, like: 0},
+    {src : bd4, like: 0},
   ])
   const [isOpen, setIsOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(null);
@@ -77,6 +71,6 @@ const Gallery = () => {
       )}
     </div>
   );
-};
+}
 
-export default Gallery;
+export default Wedding
