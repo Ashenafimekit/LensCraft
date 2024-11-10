@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from "./pages/Home"
-import Gallery from "./pages/galleryPage"
+import Gallery from "./pages/GalleryPage"
 import Service from "./pages/ServicePage"
 import AdminPage from "./pages/AdminPage";
 
