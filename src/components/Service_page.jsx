@@ -1,14 +1,16 @@
 import React from "react";
-import wedd2 from "../assets/every/pic38.jpg";
-import wedd3 from "../assets/every/pic34.jpg";
-import wedd4 from "../assets/every/pic39.jpg";
-import fash1 from "../assets/every/pic33.jpg";
-import fash2 from "../assets/every/pic27.jpg";
-import fash3 from "../assets/every/pic28.jpg";
-import port1 from "../assets/every/pic29.jpg";
-import port2 from "../assets/every/pic30.jpg";
-import port3 from "../assets/every/pic32.jpg";
-
+import wedd1 from "../assets/mts/wedding/wedding1.jpg"
+import wedd2 from "../assets/mts/wedding/wedding2.jpg"
+import wedd3 from "../assets/mts/wedding/wedding3.jpg"
+import fash1 from "../assets/mts/fashion/fashion1.jpg"
+import fash2 from "../assets/mts/fashion/fashion2.jpg"
+import fash3 from "../assets/mts/fashion/fashion3.jpg"
+import port1 from "../assets/mts/portrait/pt4.jpg"
+import port2 from "../assets/mts/portrait/pt1.jpg"
+import port3 from "../assets/mts/portrait/pt2.jpg"
+import pic1 from "../assets/mts/all/pic1.jpg"
+import pic2 from "../assets/mts/all/pic2.jpg"
+import pic3 from "../assets/mts/all/pic3.jpg"
 
 
 const Service_page = () => {
@@ -33,9 +35,9 @@ const Service_page = () => {
           </div>
         </div>
         <div className="w-full md:w-1/2 flex flex-row  rounded-lg p-5 md:p-0">
-          <img src={wedd3} alt="Portrait" className="w-1/3 object-cover rounded-l-lg" />
+          <img src={wedd1} alt="Portrait" className="w-1/3 object-cover rounded-l-lg" />
           <img src={wedd2} alt="Portrait" className="w-1/3 object-cover " />
-          <img src={wedd4} alt="Portrait" className="w-1/3 object-cover rounded-r-lg" />
+          <img src={wedd3} alt="Portrait" className="w-1/3 object-cover rounded-r-lg" />
         </div>
       </div>
       {/** Service Section 02 **/}
@@ -107,9 +109,9 @@ const Service_page = () => {
           </div>
         </div>
         <div className="w-full md:w-1/2 flex flex-row rounded-lg p-5 md:p-0">
-          <img src={wedd3} alt="Indoor" className="w-1/3 object-cover rounded-l-lg" />
-          <img src={wedd2} alt="Indoor" className="w-1/3 object-cover" />
-          <img src={wedd4} alt="Indoor" className="w-1/3 object-cover rounded-r-lg" />
+          <img src={pic1} alt="Indoor" className="w-1/3 object-cover rounded-l-lg" />
+          <img src={pic2} alt="Indoor" className="w-1/3 object-cover" />
+          <img src={pic3} alt="Indoor" className="w-1/3 object-cover rounded-r-lg" />
         </div>
       </div>
     </div>
