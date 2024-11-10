@@ -6,7 +6,7 @@ import Portrait from "../components/Portrait";
 import Couples from "../components/Couples";
 import Fashion from "../components/Fashion";
 import Birthday from "../components/Birthday";
-import "../Custom/Custom.css";
+import "../Custom/custom.css";
 
 const { TabPane } = Tabs;
 
