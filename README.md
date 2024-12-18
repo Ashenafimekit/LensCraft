@@ -1,7 +1,3 @@
-Here’s a **README** tailored for the **LensCraft** project, focused on the frontend only:
-
----
-
 # LensCraft - Photography Portfolio
 
 ![LensCraft Image](path/to/your/image.png)
